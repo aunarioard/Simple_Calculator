@@ -18,7 +18,7 @@ elif int(Num) <= 0 or int(Num) >= 0:
     
     try:
         while (KeepGoing):
-            Op_input = input("Enter operation ( +, -, *, /) or 'q' to quit: ")
+            Op_input = input("Enter operation ( +, -, *, /, =) or 'q' to quit: ")
 
             ValidOp = ['+', '-', '*', '/', '=', 'q']
             Op = ValidOp.index(str(Op_input))
